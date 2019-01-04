@@ -1,3 +1,16 @@
 Basic usage of tesseract 
-
 tesseract .\images\samplebill.jpg stdout -l eng --oem 1 --psm 3
+
+----------------------------------------------------------------------------
+
+Documentation for Pillow (Fork from PIL - Python Image Library)
+https://pillow.readthedocs.io/en/3.0.x/index.html
+
+----------------------------------------------------------------------------
+
+Save jpg to png
+image = Image.open(path+fileName+'.'+extension)
+image.save(path+fileName+'.'+newExtension)
+
+----------------------------------------------------------------------------
+
